@@ -81,7 +81,6 @@ public class StudentProfile extends Activity implements OnClickListener {
 		objArrayListNotify_no.add("10");
 
 
-
 		Student_Profile_customclass Adapter = new Student_Profile_customclass(this, objArrayListName,objArrayListImage,objArrayListNotify_no);
 		listview.setAdapter(Adapter);
 

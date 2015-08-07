@@ -46,7 +46,5 @@ public class AddStudDepartment extends Activity {
 	private void initialise() {
 		listview = (ListView)findViewById(R.id.addstudent_department_list_listview);
 
-
-
 	}
 }

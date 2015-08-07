@@ -30,16 +30,6 @@
             android:text="Teachers"
             android:textColor="#3498db"
             android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/addstudent_teacher_customclass_notification_no_textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/round_textview"
-            android:gravity="center"
-            android:text="10" />
     </LinearLayout>
 
 </LinearLayout>

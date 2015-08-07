@@ -35,6 +35,21 @@
         android:hint="Student Password"
         android:padding="5dp" />
 
+    <AutoCompleteTextView
+        android:id="@+id/collgename_autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:drawableLeft="@drawable/home48"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="College Name"
+        android:padding="5dp" >
+    </AutoCompleteTextView>
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

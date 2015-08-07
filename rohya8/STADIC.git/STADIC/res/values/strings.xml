@@ -22,5 +22,6 @@
     <string name="title_activity_add_stud__department_customclass">AddStud_Department_customclass</string>
     <string name="title_activity_add_stud_teacher">Add Teacher</string>
     <string name="title_activity_add_stud_teacher_customclass">AddStudTeacher_customclass</string>
+    <string name="title_activity_my_profile_student">My Profile</string>
 
 </resources>

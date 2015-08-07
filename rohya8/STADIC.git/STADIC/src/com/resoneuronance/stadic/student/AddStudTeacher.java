@@ -39,17 +39,7 @@ public class AddStudTeacher extends Activity {
 		objArrayListName.add("Rajesh Mangale");
 		objArrayListName.add("Rohit Wadke");
 
-
-
-		objArrayListNotify_no.add("1");
-		objArrayListNotify_no.add("2");
-		objArrayListNotify_no.add("3");
-		objArrayListNotify_no.add("2");
-		objArrayListNotify_no.add("2");
-		objArrayListNotify_no.add("2");
-
-
-		AddStudTeacher_customclass Adapter = new AddStudTeacher_customclass(this, objArrayListName,objArrayListNotify_no);
+		AddStudTeacher_customclass Adapter = new AddStudTeacher_customclass(this, objArrayListName);
 		listview.setAdapter(Adapter);
 	}
 

@@ -1,7 +1,7 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/white"
     android:padding="5dp"
     tools:context="com.resoneuronance.stadic.student.StudentProfile" >
@@ -65,13 +65,10 @@
         <ListView
             android:id="@+id/student_profile_listview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="20dp"
             android:background="@drawable/cardview" >
         </ListView>
     </LinearLayout>
 
-    <LinearLayout>
-    </LinearLayout>
-
-</ScrollView>
+</LinearLayout>

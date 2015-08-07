@@ -36,11 +36,6 @@
         <activity
             android:name=".student.StudentProfile"
             android:label="@string/title_activity_student_profile" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".admin.AdminProfile"
@@ -79,12 +74,21 @@
             android:label="@string/title_activity_add_stud__department_customclass" >
         </activity>
         <activity
-            android:name="com.resoneuronance.stadic.student.AddStudTeacher"
+            android:name=".student.AddStudTeacher"
             android:label="@string/title_activity_add_stud_teacher" >
         </activity>
         <activity
             android:name=".student.AddStudTeacher_customclass"
             android:label="@string/title_activity_add_stud_teacher_customclass" >
+        </activity>
+        <activity
+            android:name=".MyProfileStudent"
+            android:label="@string/title_activity_my_profile_student" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

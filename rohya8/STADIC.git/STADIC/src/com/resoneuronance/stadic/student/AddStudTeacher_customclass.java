@@ -17,18 +17,16 @@ import android.widget.TextView;
 
 public class AddStudTeacher_customclass extends BaseAdapter {
 
-	private ArrayList<String> name,notify_no;
+	private ArrayList<String> name;
 	private ArrayList<Integer> image;
 	Activity context;
 	LayoutInflater inflater;
 
 	public AddStudTeacher_customclass(AddStudTeacher addStudTeacher,
-			ArrayList<String> objArrayListName,
-			ArrayList<String> objArrayListNotify_no) {
+			ArrayList<String> objArrayListName) {
 		this.name = objArrayListName;
 		this.context=addStudTeacher;
 
-		notify_no = objArrayListNotify_no;
 		inflater = LayoutInflater.from(context);
 	}
 
@@ -69,16 +67,12 @@ public class AddStudTeacher_customclass extends BaseAdapter {
 			view = inflater.inflate(R.layout.activity_add_stud_teacher_customclass, null);
 			holder.name_tv = (TextView)view.findViewById(R.id.addstudent_teacher_customclass_textView);
 			//holder.iv=(ImageView)view.findViewById(R.id.departmentnotify_customimageView);
-			holder.notify_no_tv=(TextView)view.findViewById(R.id.addstudent_teacher_customclass_notification_no_textView);
 			view.setTag(holder);
 		}
 		else
 			holder = (ViewHolder)view.getTag();
 
 		holder.name_tv.setText(name.get(position));
-		//holder.iv.setImageResource(image.get(position));
-		holder.notify_no_tv.setText(notify_no.get(position));
-		// TODO Auto-generated method stub
 		return view;
 
 	}
